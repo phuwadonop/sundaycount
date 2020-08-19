@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main() {
 
-    int dayofmonth[12] = { 31,29,31,30,31,30,31,31,30,31,30,31 };
+    int dayofmonth[12] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
     int dayinweek = 1, year, month, day = 0,n;
     scanf("%d",&n);
     for (month = 1; month <= 12; month++) {
